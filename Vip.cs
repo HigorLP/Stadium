@@ -6,5 +6,6 @@ using System.Threading.Tasks;
 
 namespace Stadium {
     internal class Vip {
+        private string addition;
     }
 }
