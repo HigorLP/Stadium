@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Stadium {
-    internal class LowerCabin {
+﻿namespace Stadium {
+    internal class LowerCabin : Ticket {
+        public new const decimal Price = 15;
+        public LowerCabin() : base(Price, 0, 0) {
+            Type = "LowerCabin";
+        }
     }
 }

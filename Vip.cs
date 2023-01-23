@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Stadium {
-    internal class Vip {
-        private string addition;
+﻿namespace Stadium {
+    internal class Vip : Ticket {
+        public new const decimal Price = 50;
+        public Vip() : base(Price, 0, 0) {
+            Type = "VIP";
+        }
     }
 }
+

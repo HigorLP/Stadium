@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Stadium {
-    internal class Normal {
+﻿namespace Stadium {
+    internal class Normal : Ticket {
+        public new const decimal Price = 10;
+        public Normal() : base(Price, 0, 0) {
+            Type = "Normal";
+        }
     }
 }
