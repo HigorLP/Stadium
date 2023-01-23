@@ -1,10 +1,21 @@
-# Stadium
+# Ticket Sales System
 
-Exercício simples sobre Henrança no C#.
+This is a simple console application that simulates the purchase of tickets for an event. The user can select the type of ticket they want to buy and the amount they want to purchase. The application calculates the total cost and displays it to the user. The user also has the option to add more tickets to their purchase or end the transaction.
 
-> Crie uma classe chamada Ingresso que possui um valor em reais e um método imprimeValor().
->> a. crie uma classe VIP, que herda Ingresso e possui um valor adicional. Crie um método que retorne o valor do ingresso VIP (com o adicional incluído). 
->>> b. crie uma classe Normal, que herda Ingresso e possui um método que imprime: "Ingresso Normal". 
->>>> c. crie uma classe CamaroteInferior (que possui a localização do ingresso e métodos para acessar e imprimir esta localização) e uma classe CamaroteSuperior, que é mais cara (possui valor adicional). 
+## Getting Started
+To use the application, simply run the program and follow the prompts in the console.
 
-Esta última possui um método para retornar o valor do ingresso. Ambas as classes herdam a classe VIP 
+### Prerequisites
+- Visual Studio or other IDE capable of running C# projects
+- .NET Framework 4.7.2 or higher
+### Installing
+- Clone or download the repository
+- Open the project in Visual Studio
+- Build and run the application
+- Built With C# .NET Framework
+
+#### Authors
+Higor Pereira - Initial work
+
+#### License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
